@@ -1,0 +1,475 @@
+
+.logo img {
+  max-width: 150px;
+  height: auto;
+}
+.navbar-nav {
+  font-size: 1.2rem;
+}
+.nav-item {
+  margin-right: 1rem;
+}
+.navbar-nav .nav-link {
+  color: black;
+}
+.navbar-nav .nav-link:hover {
+  color: darkred;
+}
+.navbar-nav .nav-item.active .nav-link {
+  color: darkred;
+}
+
+.bfw-logo {
+max-width: 100%;
+height: auto;
+width: 300px; /* Ändere die Breite hier entsprechend deinen Vorstellungen */
+}
+
+@media only screen and (max-width: 1024px) {
+.bfw-logo {
+width: 280px;
+}
+}
+
+@media only screen and (max-width: 900px) {
+.bfw-logo {
+width: 260px;
+}
+}
+
+@media only screen and (max-width: 800px) {
+.bfw-logo {
+width: 240px;
+}
+}
+
+@media only screen and (max-width: 700px) {
+.bfw-logo {
+width: 220px;
+}
+}
+
+@media only screen and (max-width: 600px) {
+.bfw-logo {
+width: 200px;
+}
+}
+
+@media only screen and (max-width: 500px) {
+.bfw-logo {
+width: 180px;
+}
+}
+
+@media only screen and (max-width: 400px) {
+.bfw-logo {
+width: 160px;
+}
+}
+.card-body {
+font-size: 16px; /* Standard-Schriftgröße */
+}
+
+@media (max-width: 1024px) {
+.card-body {
+font-size: 14px; /* Schriftgröße für Bildschirmgrößen bis 1024px */
+}
+}
+
+@media (max-width: 800px) {
+.card-body {
+font-size: 12px; /* Schriftgröße für Bildschirmgrößen bis 800px */
+}
+}
+
+@media (max-width: 500px) {
+.card-body {
+font-size: 10px; /* Schriftgröße für Bildschirmgrößen bis 500px */
+}
+}
+
+.bold {
+font-weight: bold;
+}
+body {
+display: flex;
+flex-direction: column;
+min-height: 100vh;
+}
+
+main {
+flex-grow: 1;
+}
+
+footer {
+margin-top: auto;
+}
+
+
+.table-responsive {
+overflow-x: auto;
+}
+
+.table {
+width: 80%;
+max-width: 100%;
+font-size: 0.9rem;
+color: #212529;
+border-collapse: collapse;
+margin: 50px auto 0;
+}
+
+.table th,
+.table td {
+padding: 0.75rem;
+vertical-align: top;
+border-top: 1px solid #dee2e6;
+}
+
+.table thead th {
+vertical-align: bottom;
+border-bottom: 2px solid #dee2e6;
+}
+
+.table tbody + tbody {
+border-top: 2px solid #dee2e6;
+}
+
+.table-sm th,
+.table-sm td {
+padding: 0.3rem;
+}
+
+@media (max-width: 575.98px) {
+.table-responsive-sm {
+display: block;
+width: 100%;
+overflow-x: auto;
+-webkit-overflow-scrolling: touch;
+}
+
+.table-responsive-sm > .table {
+margin-bottom: 0;
+background-color: transparent;
+}
+
+.table-responsive-sm > .table > thead > tr > th,
+.table-responsive-sm > .table > tbody > tr > th,
+.table-responsive-sm > .table > tfoot > tr > th,
+.table-responsive-sm > .table > thead > tr > td,
+.table-responsive-sm > .table > tbody > tr > td,
+.table-responsive-sm > .table > tfoot > tr > td {
+white-space: nowrap;
+}
+
+.table-responsive-sm > .table-bordered {
+border: 0;
+}
+
+.table-responsive-sm > .table-bordered > thead > tr > th:first-child,
+.table-responsive-sm > .table-bordered > tbody > tr > th:first-child,
+.table-responsive-sm > .table-bordered > tfoot > tr > th:first-child,
+.table-responsive-sm > .table-bordered > thead > tr > td:first-child,
+.table-responsive-sm > .table-bordered > tbody > tr > td:first-child,
+.table-responsive-sm > .table-bordered > tfoot > tr > td:first-child {
+border-left: 0;
+}
+
+.table-responsive-sm > .table-bordered > thead > tr > th:last-child,
+.table-responsive-sm > .table-bordered > tbody > tr > th:last-child,
+.table-responsive-sm > .table-bordered > tfoot > tr > th:last-child,
+.table-responsive-sm > .table-bordered > thead > tr > td:last-child,
+.table-responsive-sm > .table-bordered > tbody > tr > td:last-child,
+.table-responsive-sm > .table-bordered > tfoot > tr > td:last-child {
+border-right: 0;
+}
+
+.table-responsive-sm > .table-bordered > tbody > tr:last-child > th,
+.table-responsive-sm > .table-bordered > tfoot > tr:last-child > th,
+.table-responsive-sm > .table-bordered > tbody > tr:last-child > td,
+.table-responsive-sm > .table-bordered > tfoot > tr:last-child > td {
+border-bottom: 0;
+}
+}
+.custom-form select {
+font-size: 14px;
+color: #333;
+background-color: #f7f7f7;
+border: none;
+border-radius: 4px;
+padding: 5px 8px;
+margin-right: 10px;
+}
+
+.custom-form button[type="submit"] {
+font-size: 14px;
+color: #fff;
+background-color: #dc3545;
+border: none;
+border-radius: 4px;
+padding: 5px 12px;
+}
+
+.custom-form button[type="submit"]:hover {
+background-color: #c82333;
+}
+
+/* Für den ausgewählten Wert im Dropdown-Menü */
+.custom-form select option[selected] {
+color: #dc3545;
+font-weight: bold;
+}
+
+
+/* Für alle Elemente in der .custom-form Klasse */
+.custom-form * {
+font-size: 12px;
+color: #333;
+display: inline-block;
+
+}
+.rechts {
+text-align: right;
+padding: 20px;
+display: inline-block;
+
+}
+
+<style>
+.logo img {
+  max-width: 150px;
+  height: auto;
+}
+.navbar-nav {
+  font-size: 1.2rem;
+}
+.nav-item {
+  margin-right: 1rem;
+}
+.navbar-nav .nav-link {
+  color: black;
+}
+.navbar-nav .nav-link:hover {
+  color: darkred;
+}
+.navbar-nav .nav-item.active .nav-link {
+  color: darkred;
+}
+
+.bfw-logo {
+max-width: 100%;
+height: auto;
+width: 300px; /* Ändere die Breite hier entsprechend deinen Vorstellungen */
+}
+
+@media only screen and (max-width: 1024px) {
+.bfw-logo {
+width: 280px;
+}
+}
+
+@media only screen and (max-width: 900px) {
+.bfw-logo {
+width: 260px;
+}
+}
+
+@media only screen and (max-width: 800px) {
+.bfw-logo {
+width: 240px;
+}
+}
+
+@media only screen and (max-width: 700px) {
+.bfw-logo {
+width: 220px;
+}
+}
+
+@media only screen and (max-width: 600px) {
+.bfw-logo {
+width: 200px;
+}
+}
+
+@media only screen and (max-width: 500px) {
+.bfw-logo {
+width: 180px;
+}
+}
+
+@media only screen and (max-width: 400px) {
+.bfw-logo {
+width: 160px;
+}
+}
+.card-body {
+font-size: 16px; /* Standard-Schriftgröße */
+}
+
+@media (max-width: 1024px) {
+.card-body {
+font-size: 14px; /* Schriftgröße für Bildschirmgrößen bis 1024px */
+}
+}
+
+@media (max-width: 800px) {
+.card-body {
+font-size: 12px; /* Schriftgröße für Bildschirmgrößen bis 800px */
+}
+}
+
+@media (max-width: 500px) {
+.card-body {
+font-size: 10px; /* Schriftgröße für Bildschirmgrößen bis 500px */
+}
+}
+
+.bold {
+font-weight: bold;
+}
+body {
+display: flex;
+flex-direction: column;
+min-height: 100vh;
+}
+
+main {
+flex-grow: 1;
+}
+
+footer {
+margin-top: auto;
+}
+
+
+.table-responsive {
+overflow-x: auto;
+}
+
+.table {
+width: 80%;
+max-width: 100%;
+font-size: 0.9rem;
+color: #212529;
+border-collapse: collapse;
+margin: 50px auto 0;
+}
+
+.table th,
+.table td {
+padding: 0.75rem;
+vertical-align: top;
+border-top: 1px solid #dee2e6;
+}
+
+.table thead th {
+vertical-align: bottom;
+border-bottom: 2px solid #dee2e6;
+}
+
+.table tbody + tbody {
+border-top: 2px solid #dee2e6;
+}
+
+.table-sm th,
+.table-sm td {
+padding: 0.3rem;
+}
+
+@media (max-width: 575.98px) {
+.table-responsive-sm {
+display: block;
+width: 100%;
+overflow-x: auto;
+-webkit-overflow-scrolling: touch;
+}
+
+.table-responsive-sm > .table {
+margin-bottom: 0;
+background-color: transparent;
+}
+
+.table-responsive-sm > .table > thead > tr > th,
+.table-responsive-sm > .table > tbody > tr > th,
+.table-responsive-sm > .table > tfoot > tr > th,
+.table-responsive-sm > .table > thead > tr > td,
+.table-responsive-sm > .table > tbody > tr > td,
+.table-responsive-sm > .table > tfoot > tr > td {
+white-space: nowrap;
+}
+
+.table-responsive-sm > .table-bordered {
+border: 0;
+}
+
+.table-responsive-sm > .table-bordered > thead > tr > th:first-child,
+.table-responsive-sm > .table-bordered > tbody > tr > th:first-child,
+.table-responsive-sm > .table-bordered > tfoot > tr > th:first-child,
+.table-responsive-sm > .table-bordered > thead > tr > td:first-child,
+.table-responsive-sm > .table-bordered > tbody > tr > td:first-child,
+.table-responsive-sm > .table-bordered > tfoot > tr > td:first-child {
+border-left: 0;
+}
+
+.table-responsive-sm > .table-bordered > thead > tr > th:last-child,
+.table-responsive-sm > .table-bordered > tbody > tr > th:last-child,
+.table-responsive-sm > .table-bordered > tfoot > tr > th:last-child,
+.table-responsive-sm > .table-bordered > thead > tr > td:last-child,
+.table-responsive-sm > .table-bordered > tbody > tr > td:last-child,
+.table-responsive-sm > .table-bordered > tfoot > tr > td:last-child {
+border-right: 0;
+}
+
+.table-responsive-sm > .table-bordered > tbody > tr:last-child > th,
+.table-responsive-sm > .table-bordered > tfoot > tr:last-child > th,
+.table-responsive-sm > .table-bordered > tbody > tr:last-child > td,
+.table-responsive-sm > .table-bordered > tfoot > tr:last-child > td {
+border-bottom: 0;
+}
+}
+.custom-form select {
+font-size: 14px;
+color: #333;
+background-color: #f7f7f7;
+border: none;
+border-radius: 4px;
+padding: 5px 8px;
+margin-right: 10px;
+}
+
+.custom-form button[type="submit"] {
+font-size: 14px;
+color: #fff;
+background-color: #dc3545;
+border: none;
+border-radius: 4px;
+padding: 5px 12px;
+}
+
+.custom-form button[type="submit"]:hover {
+background-color: #c82333;
+}
+
+/* Für den ausgewählten Wert im Dropdown-Menü */
+.custom-form select option[selected] {
+color: #dc3545;
+font-weight: bold;
+}
+
+
+/* Für alle Elemente in der .custom-form Klasse */
+.custom-form * {
+font-size: 12px;
+color: #333;
+}
+.form-control {
+width: 200px;
+background-color: #F5F5F5;
+}
+
+.rechts {
+text-align: right;
+padding: 20px;
+display: inline-block;
+}
